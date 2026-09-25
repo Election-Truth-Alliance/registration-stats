@@ -9,8 +9,8 @@
 # 8. Note when updating: The above steps need only be done for new months.
 # 9. Run this program.
 
-# The following program was created with the following prompt:
-# -----------------------------------------------------------
+# The following program was created with codex and the following prompt:
+# ----------------------------------------------------------------------
 # In the following, [basepath] is the directory that contains subdirectory getdata (designated by [basepath]/getdata/ ).
 # In this case, take [basepath] to be C:\a.python\registration-stats (set to actual current path).  However, the program should work for any [basepath].
 # Create a python program located at [basepath]/getdata/get_oh_reg.py that will do the following:
