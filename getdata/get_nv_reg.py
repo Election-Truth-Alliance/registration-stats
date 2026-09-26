@@ -1,4 +1,4 @@
-# GETTING THE DATA:
+# GETTING THE DATA:Total
 # 1. Go to https://www.nvsos.gov/elections/voters/2017-statistics
 # 2. Click the 'Active Voters' link for each month in the 'Voter Registration by COUNTY & PARTY' section to open the corresponding file.
 # 3. Download the file to [basepath]/getdata/input/NV/reg/ but append YYMMDD_ to the filename with YY being the last 2 digits of the year, MM being the month (01-12) and DD being "01".

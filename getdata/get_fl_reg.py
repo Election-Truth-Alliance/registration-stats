@@ -59,7 +59,7 @@ for year, filename in REG_FILES.items():
     print(f"Reading {filepath}")
     max_month = 12
     if year == 2026:
-        max_month = 4
+        max_month = 8 #DEBUG UPDATE
     for i in range(0, max_month):
         mdate = pd.read_excel(filepath, sheet_name=MONTHS[i], header=0)
         sdate = str(mdate.iloc[0, 0])

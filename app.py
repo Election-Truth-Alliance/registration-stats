@@ -9,10 +9,10 @@ import pandas as pd
 import plotly.express as px
 import plotly.io as pio
 from shiny import App, reactive, render, ui
-from path_defs import basepath, getdatapath
 
+basepath =    str(Path(__file__).resolve().parent) + "/"
 DATA_DIR = Path(basepath+"data")
-DEFAULT_COLORS = "red3,blue3,green3,gray60"
+DEFAULT_COLORS = "#red3,blue3,green3,gray60"
 DEFAULT_SHAPES = "15,16,17,2"
 DEFAULT_PARTIES_SPEC = "#REP,DEM,Other"
 NON_PARTY_COLUMNS = {"Year", "Date", "County", "Total", "Check"}
@@ -77,8 +77,8 @@ def state_files() -> dict[str, Path]:
 
 STATE_FILES = state_files()
 STATE_CHOICES = list(STATE_FILES) or ["AZ"]
-print(str(DATA_DIR)+"/../file_props.csv")
-FILE_PROPS_DF = pd.read_csv(str(DATA_DIR)+"/../file_props.csv")
+#FILE_PROPS_DF = pd.read_csv(str(DATA_DIR)+"/../file_props.csv")
+FILE_PROPS_DF = pd.read_csv(basepath + "file_props.csv")
 FILE_PROPS = FILE_PROPS_DF.set_index(FILE_PROPS_DF.columns[0]).apply(list, axis=1).to_dict()
 
 
@@ -200,9 +200,9 @@ def make_plot(df: pd.DataFrame, input, *, interactive: bool = True):
     percent = input.plotpercent()
     lcount = "Thousands of " if input.dothousands() else "Number of "
     parties = party_columns(df)
-    regtype = "Active "
-    if (FILE_PROPS[input.xstate()][0]):
-        regtype = ""
+    regtype = ""
+    if (FILE_PROPS[input.xstate()][0]): # Active only
+        regtype = "Active "
 
     if input.plotcounties():
         party = input.xparty()
@@ -291,6 +291,13 @@ def make_plot(df: pd.DataFrame, input, *, interactive: bool = True):
 
     title = f"{input.xcounty()}, {input.xstate()} - {title_metric}"
 
+    input_xcolor = input.xcolor()
+    if input_xcolor.startswith("#"):
+        if input.plotgroup() == "min":
+            input_xcolor = "Black"
+        else:
+            input_xcolor = FILE_PROPS[input.xstate()][2]
+
     fig = px.line(
         plot_df,
         x="Date",
@@ -298,7 +305,7 @@ def make_plot(df: pd.DataFrame, input, *, interactive: bool = True):
         color="Party",
         symbol="Party",
         markers=True,
-        color_discrete_map=parse_colors(input.xcolor(), parties),
+        color_discrete_map=parse_colors(input_xcolor, parties),
         symbol_map=parse_symbols(input.xshape(), parties),
         title=title,
         height = input.height()
@@ -402,13 +409,24 @@ app_ui = ui.page_fluid(
                 choices=state_party_choices(selected_state()),
                 selected=selected_party(),
             ),
-            ui.input_checkbox("dochange", "Calculate change", value=True),
+            ui.input_radio_buttons(
+                "plotgroup",
+                "Group",
+                {
+                    "min": "Min",
+                    "mid": "Mid",
+                    "max": "Max",
+                },
+                selected="mid",
+                inline=True
+            ),
+            ui.input_checkbox("dochange", "Calculate change", value=False),
             ui.input_checkbox("plotcounties", "Plot counties", value=False),
-            ui.input_checkbox("plotdetail", "Plot detail", value=False),
+            #ui.input_checkbox("plotdetail", "Plot detail", value=False),
             ui.input_checkbox("plotpercent", "Plot percent", value=False),
             ui.input_checkbox("mark_generals", "Mark generals", value=True),
             ui.input_checkbox("mark_midterms", "Mark midterms", value=True),
-            ui.input_checkbox("dothousands", "Thousands", value=True),
+            ui.input_checkbox("dothousands", "Thousands", value=False),
             ui.input_checkbox("addcheck", "Add check", value=False),
             ui.input_numeric("maxcounties", "Max counties", min=1, value=10),
             ui.input_text(
@@ -501,12 +519,18 @@ def server(input, output, session):
         if minyear > maxyear:
             minyear, maxyear = maxyear, minyear
 
-        input_parties = input.parties()
-        if not input.plotdetail():
+        # input_parties = input.parties()
+        # if not input.plotdetail():
+        #     input_parties = FILE_PROPS[input.xstate()][1]
+        input_parties = input.parties() # input.plotgroup() == "max"
+        if input.plotgroup() == "mid":
             input_parties = FILE_PROPS[input.xstate()][1]
+        elif input.plotgroup() == "min":
+            input_parties = "All"
         source_df = apply_parties_spec(
             read_state_data(input.xstate()), input_parties
         )
+
         parties = party_columns(source_df)
         if input.addcheck():
             source_df = source_df.copy()
