@@ -87,7 +87,7 @@ for year in range(first_year, 2023):
         ee = pd.concat([ee, dd], ignore_index=True)
 for year in range(2023, last_year+1):
     if year == 2026:
-        last_month = 6
+        last_month = 8 #UPDATE
     for imonth in range(first_month, last_month):
         filepath = inputpath + "KY/reg/voterstats-"+MONTHS[imonth]+" "+str(year)+".xls"
         if not Path(filepath).exists():
