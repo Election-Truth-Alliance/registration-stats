@@ -3,7 +3,9 @@
 # 2. Run get_pa_reg_files.py to create files in this directory.
 # 3. Run get_pa_reg_single_files.py to create 4 more files in this directory.
 # 4. Run this program to create pa_reg.csv in [basepath]/getdata/data
-# 5. If necessary, copy this file to [basepath]/data
+# 5. Run get_pa_reg_files25.py to add files in this directory.
+# 6. If necessary, copy this file to [basepath]/data
+# 7. Run this program
 
 import os
 import pandas as pd

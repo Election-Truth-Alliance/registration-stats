@@ -2,6 +2,7 @@
 # 1. Go to https://azsos.gov/elections/election-information/voter-registration-counts
 # 2. Click the CSV links to download from July 2026 (Primary Election) back to January 2015
 # 3. Copy downloaded files to the input directory for this script ([basedir]/registration/getdata/input/AZ/reg/)
+# 4. Run this program
 import os
 import pandas as pd
 #import numpy as np

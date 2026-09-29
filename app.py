@@ -254,7 +254,7 @@ def make_plot(df: pd.DataFrame, input, *, interactive: bool = True):
                 if xmin <= d <= xmax:
                     fig.add_vline(
                         x=d,
-                        line_color="red",
+                        line_color="#6A3D9A", # deep purple
                         line_width=1
                     )
         if input.mark_midterms():
@@ -262,8 +262,9 @@ def make_plot(df: pd.DataFrame, input, *, interactive: bool = True):
                 if xmin <= d <= xmax:
                     fig.add_vline(
                         x=d,
-                        line_color="blue",
-                        line_width=1
+                        line_color="brown",
+                        line_width=1,
+                        line_dash="dash"
                     )
         if not interactive:
             fig.update_layout(dragmode=False, showlegend=False)
@@ -325,7 +326,7 @@ def make_plot(df: pd.DataFrame, input, *, interactive: bool = True):
             if xmin <= d <= xmax:
                 fig.add_vline(
                     x=d,
-                    line_color="red",
+                    line_color="#6A3D9A", # deep purple
                     line_width=1
                 )
     if input.mark_midterms():
@@ -333,8 +334,9 @@ def make_plot(df: pd.DataFrame, input, *, interactive: bool = True):
             if xmin <= d <= xmax:
                 fig.add_vline(
                     x=d,
-                    line_color="blue",
-                    line_width=1
+                    line_color="brown",
+                    line_width=1,
+                    line_dash="dash"
                 )
     if not interactive:
         fig.update_layout(dragmode=False)
@@ -344,6 +346,21 @@ def make_plot(df: pd.DataFrame, input, *, interactive: bool = True):
 app_ui = ui.page_fluid(
     ui.tags.style(
         """
+        .app-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+        .app-header h2 {
+            margin: 0;
+        }
+        .app-logo {
+            display: block;
+            width: auto;
+            height: 64px;
+            object-fit: contain;
+        }
         .app-shell {
             display: grid;
             grid-template-columns: 250px minmax(0, 1fr);
@@ -391,7 +408,20 @@ app_ui = ui.page_fluid(
         }
         """
     ),
-    ui.h2("Registered Voters Statistics"),
+    ui.div(
+        ui.a(
+            ui.img(
+                src="ETA_VOTE.png",
+                alt="Election Truth Alliance",
+                class_="app-logo",
+            ),
+            href="https://electiontruthalliance.org/",
+            target="_blank",
+            rel="noopener noreferrer",
+        ),
+        ui.h2("Voter Registration Trends Over Time"),
+        class_="app-header",
+    ),
     ui.div(
         ui.div(
             ui.input_select("xstate", "State", choices=STATE_CHOICES, selected=selected_state()),
@@ -411,7 +441,7 @@ app_ui = ui.page_fluid(
             ),
             ui.input_radio_buttons(
                 "plotgroup",
-                "Group",
+                "Groups",
                 {
                     "min": "Min",
                     "mid": "Mid",
@@ -448,10 +478,11 @@ app_ui = ui.page_fluid(
                 ui.nav_panel(
                     "Usage",
                     ui.tags.iframe(
-                        src="https://econdataus.com/reg/registration.htm",
-                        width="100%",
-                        height="800px",
-                        style="border: none;"
+                        src="VoterRegistrationTrends.html",
+                        style="width:100%; height:calc(100vh - 150px); border:none;"
+                        # width="100%",
+                        # height="800px",
+                        # style="border: none;"
                     )
                 ),
                 selected="Plotly",
@@ -623,4 +654,4 @@ def server(input, output, session):
         yield buffer.getvalue()
 
 
-app = App(app_ui, server)
+app = App(app_ui, server, static_assets=Path(basepath + "www"))

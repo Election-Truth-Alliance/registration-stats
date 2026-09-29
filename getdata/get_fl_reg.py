@@ -5,6 +5,7 @@
 # 4. Click the links under Archived Monthly Reports from 2025 back to 2017 to download those zip files
 # 5. Copy downloaded zip files to the input directory for this script ([basedir]/registration/getdata/input/FL/reg/)
 # 6. Unzip all of the zip files into the same directory, creating subdirectories with the same name as the zip files
+# 7. Run the program
 import os
 import pandas as pd
 #import numpy as np
