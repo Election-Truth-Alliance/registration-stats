@@ -457,6 +457,7 @@ app_ui = ui.page_fluid(
             ui.input_checkbox("mark_generals", "Mark generals", value=True),
             ui.input_checkbox("mark_midterms", "Mark midterms", value=True),
             ui.input_checkbox("dothousands", "Thousands", value=False),
+            ui.input_checkbox("domonthly", "Monthly", value=True),
             ui.input_checkbox("addcheck", "Add check", value=False),
             ui.input_numeric("maxcounties", "Max counties", min=1, value=10),
             ui.input_text(
@@ -603,6 +604,13 @@ def server(input, output, session):
                 df[parties] = (df[parties].div(first_values, axis="columns") - 1) * 100
             else:
                 df[parties] = df[parties].subtract(first_values, axis="columns")
+
+        if input.domonthly():
+            #df = df.sort_values("Date").groupby(df["Date"].dt.to_period("M")).tail(1) # include last day of month
+            df = df.sort_values("Date")
+            idx = df.groupby(df["Date"].dt.to_period("M")).head(1).index # include first day of month
+            idx = idx.union(df.tail(1).index) # plus last day if not already included
+            df = df.loc[idx].sort_values("Date")
 
         return df
 
