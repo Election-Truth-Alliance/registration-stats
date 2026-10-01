@@ -1,0 +1,2111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Description" content="November 2018 Voter Registration Figures" />
+<meta name="Keywords" content="VR Figures, Voter Registration Statistics" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>November 2018 Voter Registration Figures</title>
+
+
+
+
+
+<script type="text/javascript"></script> <!-- to avoid a styling glitch in IE for Windows -->
+<style type="text/css" media="all">	@import url(/css/global-no-nav.css);
+</style>
+<link rel="stylesheet" href="/css/print.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/css/global-no-nav.css" type="text/css" media="screen" />
+
+</head>
+
+<body>
+
+<div id="container"><!-- begin container -->
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://d2h3sz5hbsavy4.cloudfront.net/lex-web-ui-loader.min.js"></script>
+
+
+<script>
+  var loaderOpts = {
+    baseUrl: 'https://d2h3sz5hbsavy4.cloudfront.net/',
+    shouldLoadMinDeps: true
+  };
+  var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
+  var chatbotUiConfig = {
+          /* Example of setting session attributes on parent page
+          lex: {
+            sessionAttributes: {
+              userAgent: navigator.userAgent,
+              QNAClientFilter: ''
+            }
+          }
+          */
+        };
+  loader.load(chatbotUiConfig)
+    .catch(function (error) { console.error(error); });
+</script>
+
+<a href="/#mainContent" class="hidden">Skip to Main Content</a>
+
+<!-- <div id="foo"><strong>THE TEXAS SECRETARY OF STATE WILL BE CLOSED TODAY AT 3:00 P.M. DUE TO INCLEMENT WEATHER</strong>. </strong><a href="/holiday-notice.shtml"><strong>CLOSURE DETAILS</strong></a></div> -->
+
+<!-- <div id="foo"><strong>THE TEXAS SECRETARY OF STATE WILL BE CLOSED THURSDAY, FEBRUARY 2ND DUE TO INCLEMENT WEATHER. <a href="/holiday-notice.shtml">CLOSURE DETAILS</a></strong></div> -->
+
+<!-- <div id="foo"><strong>OUR AGENCY IS CURRENTLY EXPERIENCING ISSUES WITH OUR PHONE SYSTEM. WE APOLOGIZE FOR THE INCONVENIENCE AS WE WORK TO RESOLVE THE ISSUES.</strong></div> -->
+
+<!-- <div id="foo"><strong> Technical Notice: Various applications including  SOSDirect and SOSUpload are experiencing intermittent  issues and are actively being addressed. We apologize for the inconvenience. </strong></div> -->
+
+<!-- <div id="foo"><strong> Notice: Various applications including  SOSDirect and SOSUpload are experiencing technical difficulties and are actively being addressed. We apologize for the inconvenience. </strong></div> -->
+
+<!-- <div id="foo3"><strong> DUE TO INCLEMENT WEATHER, OUR OFFICE WILL OPEN AT NOON ON TUESDAY, JANUARY 16. ONLINE SERVICES REMAIN AVAILABLE 24/7. </strong></div> -->
+
+<!-- <div id="foo3"><strong> DUE TO INCLEMENT WEATHER, OUR OFFICE WILL OPEN AT 10:00 AM ON WEDNESDAY, JANUARY 17. ONLINE SERVICES REMAIN AVAILABLE 24/7. </strong></div> -->
+
+
+<!-- <div id="foo3"><strong>Maintenance Notice: Due to the worldwide Microsoft outage, several SOS systems are down.  We are working diligently to get them back up and running.</strong></div> -->
+
+<!-- <div id="foo3"><strong><a href="/weather.shtml">THE TEXAS SECRETARY OF STATE WILL BE CLOSED TUESDAY, JANUARY 21, DUE TO INCLEMENT WEATHER.</a></strong></div> -->
+
+<!--<div id="foo3"><strong><a href="/technical-notice.shtml">Technical Notice: We are experiencing technical networking issues and are currently working on a resolution.</a></strong></div>-->
+
+<!-- <div id="foo"><strong>OUR AGENCY IS CURRENTLY EXPERIENCING ISSUES WITH OUR PHONE SYSTEM. WE APOLOGIZE FOR THE INCONVENIENCE AS WE WORK TO RESOLVE THE ISSUES.</strong></div> -->
+
+<!--<div id="foo3"><strong><a href="/weather.shtml">THE OFFICE OF TEXAS SECRETARY OF STATE WILL BE CLOSED TUESDAY, JANUARY 27, DUE TO INCLEMENT WEATHER. ONLINE SERVICES REMAIN AVAILABLE 24/7.</a></strong></div> -->
+
+<!-- <div id="foo3"><strong><a href="/maintenance-notice.shtml">Maintenance Notice: SOSPortal applications including Business Filings, Notary and Texas Register will be unavailable from 8:00 p.m. to 10:00 p.m. from Tuesday, September 29, through Friday, October 2 </a></strong></div> -->
+
+<div id="foo3"><strong><a href="/maintenance-notice.shtml">Maintenance Notice: The SOSPortal is unavailable due to maintenance. Check back frequently for updates.</a></strong></div>
+
+<div id="foo2"><strong>Election Notice:&nbsp; <a href="https://www.votetexas.gov/register-to-vote/index.html">Monday, October 5 is the last day to register to vote for the November 3, 2026 Election</a> &nbsp;|&nbsp; <a href="http://www.votetexas.gov/">Visit VoteTexas.gov for more election information</a></strong></div>
+
+<div id="foo2"><strong><a href="/temp-location-notice.shtml" >IN-PERSON SERVICES FOR THE OFFICE OF THE TEXAS SECRETARY OF STATE HAVE MOVED TO 400 W. 15TH STREET. <U>PARKING DETAILS AND MORE INFORMATION</U></a></strong> </div>
+
+<!-- <div id="foo3"><strong><a href="/elections/contact.shtml">Candidates seeking to file applications outside of lobby hours should contact the Elections Division at 512-463-5650.</a></strong></div> -->
+
+<div id="top_navigation"> <!-- begin top_navigation -->
+	<ul class="top_navigation">
+        <li><a href="/about/newsreleases/index.shtml">Media</a> |</li>
+		<li><a href="/siteindex.shtml">Site Map</a> |</li>
+		<li><a href="/help.shtml">Help</a> |</li>
+       	<li><a href="/contact.shtml">Contact</a> |</li>
+		<li><a href="https://www.surveymonkey.com/r/website-satisfaction-survey">Website Survey</a> |</li>
+	    <li><a href="/sos_espanol.shtml">En Espa&ntilde;ol</a></li>
+		<!--<li><a href="https://www.surveymonkey.com/r/2026-sos-survey"><strong>Customer Survey</strong></a></li>-->
+	</ul>
+	
+			<div id="search"> <!-- begin search -->
+
+<FORM id="ThunderstoneSearchForm" class="ThunderstoneForm" METHOD=get ACTION="/search.shtml" style="margin:0;">
+<INPUT TYPE="hidden" NAME="dropXSL" VALUE=""/>
+<INPUT TYPE=hidden NAME=pr VALUE="default"/>
+<INPUT TYPE=hidden NAME=prox VALUE="page"/>
+<INPUT TYPE=hidden NAME=rorder VALUE="500"/>
+<INPUT TYPE=hidden NAME=rprox VALUE="500"/>
+<INPUT TYPE=hidden NAME=rdfreq VALUE="500"/>
+<INPUT TYPE=hidden NAME=rwfreq VALUE="500"/>
+<INPUT TYPE=hidden NAME=rlead VALUE="500"/>
+<INPUT TYPE=hidden NAME=sufs VALUE="0"/>
+<INPUT TYPE=hidden NAME=order VALUE="r"/>
+<INPUT TYPE=hidden NAME=rdepth VALUE="0"/>
+
+<label for="query">Search for this:</label><INPUT SIZE=12 name="query" class=" queryAutocomplete" id="query" placeholder="Search" title="Search" />
+	<INPUT TYPE=submit VALUE="Go"/>
+</FORM>
+
+</div>
+	
+</div> <!-- end top_navigation -->
+<div id="header"> <!-- begin header -->
+	
+<!--<h1>Texas Secretary of State</h1>--><a href="/index.shtml"><img src="/images/global/header.jpg" width="630" height="96" alt="Office of the Texas Secretary of State" class="responsive" /></a></div> 
+<!-- end header -->
+
+<header>
+	<nav class="navbar">
+	  <label for="input-hamburger" class="hamburger"><span class="sr-only">Menu</span></label>
+		<input type="checkbox" id="input-hamburger" title="Menu" hidden>
+		<ul class="menu"> 
+		 <!--<li><a href="/index.shtml" class="menu-link">SOS Home</a></li> -->
+			<li class="has-dropdown">
+			<a href="/about/index.shtml" class="menu-link">About SOS </a>
+			<ul class="submenu">
+			  <li><a href="/about/index.shtml" class="menu-link">About the Office</a></li>
+						<li><a href="/about/sosbio.shtml" class="menu-link">Secretary of State Biography</a></li>
+						<li><a href="/about/assistantsosbio.shtml" class="menu-link">Deputy Secretary of State Biography</a></li>
+						<li><a href="/about/newsreleases/index.shtml" class="menu-link">Press Releases</a></li>
+						<li><a href="/about/history.shtml" class="menu-link">History of the Office</a></li>
+						<li><a href="/about/duties.shtml" class="menu-link">Constitutional Duties</a></li>
+						<li><a href="/about/jobs/index.shtml" class="menu-link">Employment Opportunities</a></li>
+						<li><a href="/modernization.shtml">SOS Modernization Program</a></li>
+						<li><a href="/about/procurement/index.shtml" class="menu-link">Procurement Opportunities</a></li>
+						<li><a href="/about/publications/index.shtml" class="menu-link">Publications</a></li>
+			  </ul>
+			</li>
+			<li class="has-dropdown">
+			<a href="/elections/index.shtml" class="menu-link">Elections &amp; Voting</a>
+			<ul class="submenu">
+			  <li><a href="https://www.votetexas.gov">VoteTexas.gov - Voter Information</a></li>
+			  <li><a href="/elections/laws/voter-registration-resources.shtml" class="menu-link">Voter Registration Resources</a></li>
+						<li><a href="/elections/conducting/index.shtml" class="menu-link">Conducting Elections</a></li>
+						<li><a href="/elections/candidates/index.shtml" class="menu-link">Candidate Information</a></li>
+						<li><a href="/elections/voter/current.shtml" class="menu-link">Officials and Officeholders</a></li>
+						<li><a href="/elections/historical/index.shtml" class="menu-link">Election Results</a></li>
+						<li><a href="/elections/fad/index.shtml" class="menu-link">Audit Program</a></li>
+						<li><a href="/elections/laws/education-resources.shtml" class="menu-link">Training and Educational Resources</a></li>
+						<li><a href="/elections/funds/index.shtml" class="menu-link">Election Funds Management</a></li>
+						<li><a href="/elections/laws/resources_legal.shtml" class="menu-link">Forms, Resources and Legal Library</a></li>
+						<li><a href="/elections/laws/votingsystems.shtml" class="menu-link">Voting Systems</a></li>
+						<li><a href="https://www.votetexas.gov/faq/index.html" class="menu-link">Frequently Asked Questions (FAQS)</a></li>
+			  </ul>
+			</li>
+			<li class="has-dropdown">
+				<a href="/corp/index.shtml" class="menu-link">Business Services</a>
+				<ul class="submenu">
+				  <li><a href="/corp/sosda/index.shtml" class="menu-link">SOSPortal - Business Filings</a></li>
+						<li><a href="/corp/forms_boc.shtml" class="menu-link">Business Forms</a></li>
+						<li><a href="/corp/options.shtml" class="menu-link">Filing Options</a></li>
+						<li><a href="https://direct.sos.state.tx.us/help/help-corp.asp?pg=fee" class="menu-link">Fee Schedule</a></li>
+						<li><a href="/corp/copies.shtml" class="menu-link">Copies and Certificates</a></li>
+						<li><a href="/corp/registeredagents.shtml" class="menu-link">Registered Agents</a></li>
+				  <li><a href="/ucc/index.shtml" class="menu-link">Uniform Commercial Code</a></li>
+						<li><a href="/corp/tradepatents.shtml" class="menu-link">Trademarks</a></li>
+						<li><a href="/corp/service-of-process.shtml" class="menu-link">Service of Process</a></li>
+						<li><a href="/corp/business-law.shtml">Texas Business Law</a></li>
+						<li><a href="/corp/generalfaqs.shtml" class="menu-link">Frequently Asked Questions (FAQs)</a></li>
+		  </ul>
+		  </li>
+	<li class="has-dropdown">
+				<a href="/statdoc/index.shtml" class="menu-link">Notary &amp; Apostilles  	   
+			  </a>
+					<ul class="submenu">
+						<li><a href="/statdoc/notary-public.shtml" class="menu-link">Notary Public</a></li>
+						<li><a href="/authinfo.shtml" class="menu-link">Apostilles/Authentication of Documents</a></li>
+						<li><a href="/statdoc/npcomp.shtml" class="menu-link">Notary Complaints</a></li>
+						<li><a href="/statdoc/faqs.shtml" class="menu-link">Frequently Asked Questions (FAQS)</a></li>
+					</ul>
+		  </li>
+			<li class="has-dropdown">
+				<a href="/texreg/index.shtml" class="menu-link">Rules &amp; Meetings
+				
+			  </a>
+					<ul class="submenu">
+					  <li><a href="/texreg/index.shtml" class="menu-link">Texas Register</a></li>
+						<li><a href="/tac/index.shtml" class="menu-link">Texas Administrative Code</a></li>
+						<li><a href="/open/index.shtml" class="menu-link">Open Meetings</a></li>
+						<li><a href="/texreg/subinfo.shtml" class="menu-link">Subscription Services</a></li>
+						<li><a href="/texreg/transfers/index.shtml" class="menu-link">Rule Transfers and Agency Name Changes</a></li>
+						<li><a href="/texreg/liaisons.shtml" class="menu-link">Liaison General Info</a></li>
+						<li><a href="https://webservices.sos.state.tx.us/termsandconditions/tac.html"  class="menu-link">Liaison Login</a></li>
+						<li><a href="/texreg/resources.shtml" class="menu-link">Other Resources</a></li>
+						<li><a href="/texreg/faqs.shtml" class="menu-link">Frequently Asked Questions (FAQs)</a></li>
+					</ul>
+		  </li>
+		  <li class="has-dropdown">
+		  <a href="/border/intlprotocol/index.shtml" class="menu-link">International Relations</a>
+					<ul class="submenu">
+					  <li><a href="/border/intlprotocol/index.shtml">International Affairs</a></li>
+						<li><a href="/border/intlprotocol/embassies/index.shtml">Foreign  Consulates in Texas</a></li>
+					  <li><a href="/border/index.shtml" class="menu-link">Texas Border &amp; Mexican Affairs</a></li>
+						<li><a href="/border/bmaconf.shtml" class="menu-link">Border Governor's Conference</a></li>
+						<li><a href="/border/groups-reports.shtml">Work Groups &amp; Reports</a></li>
+						<!--<li><a href="/border/reports/index.shtml" class="menu-link">Border Commerce Coordinator Legislative Reports</a></li> -->
+						<li><a href="/statdoc/notary-public.shtml"  class="menu-link">Notario Publico?</a></li>
+						<li><a href="/authinfo.shtml" class="menu-link">Apostilles/Authentication of Documents</a></li>
+						<li><a href="/border/linksofinterest.shtml" class="menu-link">Links of Interest</a></li>
+					</ul>
+		  </li>
+			 <li class="has-dropdown">
+			<a href="/other/index.shtml" class="menu-link">Forms &amp; Other Services</a>
+			<ul class="submenu">
+			  <li><a href="/forms.shtml" class="menu-link">Forms</a></li>
+						<li><a href="https://webservices.sos.state.tx.us/legbills/index89.aspx" class="menu-link">Legislative Bills</a></li>
+				        <li><a href="/statdoc/data-brokers.shtml"><span style="color: #F7EB90"><strong>NEW</strong>:</span> Data Brokers</a></li>
+						<li><a href="/statdoc/cso.shtml" class="menu-link">Credit Services Organizations</a></li>
+						<li><a href="/statdoc/seal.shtml" class="menu-link">State Seal of Texas</a></li>
+						<li><a href="/statdoc/athlete-agents.shtml" class="menu-link">Athlete Agents</a></li>
+						<li><a href="/statdoc/healthspas/index.shtml" class="menu-link">Health Spas</a> </li>
+						<li><a href="/other/faqs.shtml">FAQs For Other Services</a></li>
+		    </ul>
+		  </li>
+	  </ul>	
+  </nav>
+</header>
+	
+	<script>
+	const hamburger = document.querySelector('.hamburger');
+	hamburger.addEventListener('click', function(){
+	this.classList.toggle("close");
+	});
+	</script>
+
+
+
+
+
+		
+	
+
+
+<div id="content"> <!-- begin content -->
+	<h1><a name="mainContent"></a>November 2018 Voter Registration Figures</h1>
+	<table class="norm" summary="November 2018 Voter Registration Figures">
+      <tr>
+        <th scope="col"><div align="left">County Name</div></th>
+        <th scope="col"><div align="center">Precincts</div></th>
+        <th scope="col"><div align="center">Voter Registration</div></th>
+        <th scope="col"><div align="center">Suspense Voters</div></th>
+        <th scope="col"><div align="center">Non-Suspense Voters</div></th>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">ANDERSON</div></th>
+        <td class="align-c">22 </td>
+        <td class="align-c">28,487 </td>
+        <td class="align-c">3,351 </td>
+        <td class="align-c">25,136 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">ANDREWS</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">9,574 </td>
+        <td class="align-c">1,047 </td>
+        <td class="align-c">8,527 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">ANGELINA</div></th>
+        <td class="align-c">47 </td>
+        <td class="align-c">51,751 </td>
+        <td class="align-c">5,325 </td>
+        <td class="align-c">46,426 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">ARANSAS</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">17,308 </td>
+        <td class="align-c">2,715 </td>
+        <td class="align-c">14,593 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">ARCHER</div></th>
+        <td class="align-c">11 </td>
+        <td class="align-c">6,317 </td>
+        <td class="align-c">469 </td>
+        <td class="align-c">5,848 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">ARMSTRONG</div></th>
+        <td class="align-c">9 </td>
+        <td class="align-c">1,428 </td>
+        <td class="align-c">78 </td>
+        <td class="align-c">1,350 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">ATASCOSA</div></th>
+        <td class="align-c">24 </td>
+        <td class="align-c">27,338 </td>
+        <td class="align-c">2,513 </td>
+        <td class="align-c">24,825 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">AUSTIN</div></th>
+        <td class="align-c">18 </td>
+        <td class="align-c">19,406 </td>
+        <td class="align-c">1,740 </td>
+        <td class="align-c">17,666 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">BAILEY</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">3,727 </td>
+        <td class="align-c">469 </td>
+        <td class="align-c">3,258 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">BANDERA</div></th>
+        <td class="align-c">10 </td>
+        <td class="align-c">15,869 </td>
+        <td class="align-c">1,382 </td>
+        <td class="align-c">14,487 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">BASTROP</div></th>
+        <td class="align-c">21 </td>
+        <td class="align-c">47,438 </td>
+        <td class="align-c">5,639 </td>
+        <td class="align-c">41,799 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">BAYLOR</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">2,365 </td>
+        <td class="align-c">244 </td>
+        <td class="align-c">2,121 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">BEE</div></th>
+        <td class="align-c">17 </td>
+        <td class="align-c">15,883 </td>
+        <td class="align-c">1,897 </td>
+        <td class="align-c">13,986 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">BELL</div></th>
+        <td class="align-c">49 </td>
+        <td class="align-c">195,760 </td>
+        <td class="align-c">37,730 </td>
+        <td class="align-c">158,030 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">BEXAR</div></th>
+        <td class="align-c">726 </td>
+        <td class="align-c">1,098,257 </td>
+        <td class="align-c">150,999 </td>
+        <td class="align-c">947,258 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">BLANCO</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">8,504 </td>
+        <td class="align-c">727 </td>
+        <td class="align-c">7,777 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">BORDEN</div></th>
+        <td class="align-c">7 </td>
+        <td class="align-c">488 </td>
+        <td class="align-c">21 </td>
+        <td class="align-c">467 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">BOSQUE</div></th>
+        <td class="align-c">16 </td>
+        <td class="align-c">12,209 </td>
+        <td class="align-c">1,213 </td>
+        <td class="align-c">10,996 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">BOWIE</div></th>
+        <td class="align-c">42 </td>
+        <td class="align-c">59,618 </td>
+        <td class="align-c">8,093 </td>
+        <td class="align-c">51,525 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">BRAZORIA</div></th>
+        <td class="align-c">63 </td>
+        <td class="align-c">207,446 </td>
+        <td class="align-c">19,083 </td>
+        <td class="align-c">188,363 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">BRAZOS</div></th>
+        <td class="align-c">107 </td>
+        <td class="align-c">114,377 </td>
+        <td class="align-c">15,989 </td>
+        <td class="align-c">98,388 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">BREWSTER</div></th>
+        <td class="align-c">8 </td>
+        <td class="align-c">7,292 </td>
+        <td class="align-c">853 </td>
+        <td class="align-c">6,439 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">BRISCOE</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">1,084 </td>
+        <td class="align-c">84 </td>
+        <td class="align-c">1,000 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">BROOKS</div></th>
+        <td class="align-c">9 </td>
+        <td class="align-c">5,843 </td>
+        <td class="align-c">849 </td>
+        <td class="align-c">4,994 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">BROWN</div></th>
+        <td class="align-c">18 </td>
+        <td class="align-c">23,368 </td>
+        <td class="align-c">2,526 </td>
+        <td class="align-c">20,842 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">BURLESON</div></th>
+        <td class="align-c">13 </td>
+        <td class="align-c">11,782 </td>
+        <td class="align-c">1,006 </td>
+        <td class="align-c">10,776 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">BURNET</div></th>
+        <td class="align-c">23 </td>
+        <td class="align-c">31,072 </td>
+        <td class="align-c">3,135 </td>
+        <td class="align-c">27,937 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">CALDWELL</div></th>
+        <td class="align-c">31 </td>
+        <td class="align-c">23,777 </td>
+        <td class="align-c">3,315 </td>
+        <td class="align-c">20,462 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">CALHOUN</div></th>
+        <td class="align-c">25 </td>
+        <td class="align-c">12,835 </td>
+        <td class="align-c">1,181 </td>
+        <td class="align-c">11,654 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">CALLAHAN</div></th>
+        <td class="align-c">8 </td>
+        <td class="align-c">9,337 </td>
+        <td class="align-c">872 </td>
+        <td class="align-c">8,465 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">CAMERON</div></th>
+        <td class="align-c">102 </td>
+        <td class="align-c">206,966 </td>
+        <td class="align-c">17,754 </td>
+        <td class="align-c">189,212 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">CAMP</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">7,648 </td>
+        <td class="align-c">834 </td>
+        <td class="align-c">6,814 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">CARSON</div></th>
+        <td class="align-c">9 </td>
+        <td class="align-c">4,263 </td>
+        <td class="align-c">339 </td>
+        <td class="align-c">3,924 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">CASS</div></th>
+        <td class="align-c">19 </td>
+        <td class="align-c">20,119 </td>
+        <td class="align-c">2,214 </td>
+        <td class="align-c">17,905 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">CASTRO</div></th>
+        <td class="align-c">8 </td>
+        <td class="align-c">3,842 </td>
+        <td class="align-c">510 </td>
+        <td class="align-c">3,332 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">CHAMBERS</div></th>
+        <td class="align-c">14 </td>
+        <td class="align-c">28,063 </td>
+        <td class="align-c">2,250 </td>
+        <td class="align-c">25,813 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">CHEROKEE</div></th>
+        <td class="align-c">25 </td>
+        <td class="align-c">27,949 </td>
+        <td class="align-c">2,898 </td>
+        <td class="align-c">25,051 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">CHILDRESS</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">3,559 </td>
+        <td class="align-c">263 </td>
+        <td class="align-c">3,296 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">CLAY</div></th>
+        <td class="align-c">16 </td>
+        <td class="align-c">7,655 </td>
+        <td class="align-c">573 </td>
+        <td class="align-c">7,082 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">COCHRAN</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">1,729 </td>
+        <td class="align-c">36 </td>
+        <td class="align-c">1,693 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">COKE</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">2,285 </td>
+        <td class="align-c">137 </td>
+        <td class="align-c">2,148 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">COLEMAN</div></th>
+        <td class="align-c">5 </td>
+        <td class="align-c">5,912 </td>
+        <td class="align-c">510 </td>
+        <td class="align-c">5,402 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">COLLIN</div></th>
+        <td class="align-c">226 </td>
+        <td class="align-c">579,893 </td>
+        <td class="align-c">75,145 </td>
+        <td class="align-c">504,748 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">COLLINGSWORTH</div></th>
+        <td class="align-c">7 </td>
+        <td class="align-c">1,906 </td>
+        <td class="align-c">124 </td>
+        <td class="align-c">1,782 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">COLORADO</div></th>
+        <td class="align-c">12 </td>
+        <td class="align-c">13,938 </td>
+        <td class="align-c">999 </td>
+        <td class="align-c">12,939 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">COMAL</div></th>
+        <td class="align-c">28 </td>
+        <td class="align-c">100,867 </td>
+        <td class="align-c">9,628 </td>
+        <td class="align-c">91,239 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">COMANCHE</div></th>
+        <td class="align-c">14 </td>
+        <td class="align-c">9,197 </td>
+        <td class="align-c">107 </td>
+        <td class="align-c">9,090 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">CONCHO</div></th>
+        <td class="align-c">8 </td>
+        <td class="align-c">1,677 </td>
+        <td class="align-c">160 </td>
+        <td class="align-c">1,517 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">COOKE</div></th>
+        <td class="align-c">29 </td>
+        <td class="align-c">25,747 </td>
+        <td class="align-c">2,491 </td>
+        <td class="align-c">23,256 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">CORYELL</div></th>
+        <td class="align-c">17 </td>
+        <td class="align-c">38,635 </td>
+        <td class="align-c">7,819 </td>
+        <td class="align-c">30,816 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">COTTLE</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">1,063 </td>
+        <td class="align-c">133 </td>
+        <td class="align-c">930 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">CRANE</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">2,666 </td>
+        <td class="align-c">254 </td>
+        <td class="align-c">2,412 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">CROCKETT</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">2,497 </td>
+        <td class="align-c">250 </td>
+        <td class="align-c">2,247 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">CROSBY</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">3,540 </td>
+        <td class="align-c">326 </td>
+        <td class="align-c">3,214 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">CULBERSON</div></th>
+        <td class="align-c">5 </td>
+        <td class="align-c">1,722 </td>
+        <td class="align-c">225 </td>
+        <td class="align-c">1,497 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">DALLAM</div></th>
+        <td class="align-c">9 </td>
+        <td class="align-c">3,039 </td>
+        <td class="align-c">500 </td>
+        <td class="align-c">2,539 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">DALLAS</div></th>
+        <td class="align-c">797 </td>
+        <td class="align-c">1,335,313 </td>
+        <td class="align-c">173,985 </td>
+        <td class="align-c">1,161,328 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">DAWSON</div></th>
+        <td class="align-c">9 </td>
+        <td class="align-c">7,202 </td>
+        <td class="align-c">658 </td>
+        <td class="align-c">6,544 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">DEAF SMITH</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">8,855 </td>
+        <td class="align-c">815 </td>
+        <td class="align-c">8,040 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">DELTA</div></th>
+        <td class="align-c">7 </td>
+        <td class="align-c">3,896 </td>
+        <td class="align-c">363 </td>
+        <td class="align-c">3,533 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">DENTON</div></th>
+        <td class="align-c">179 </td>
+        <td class="align-c">497,490 </td>
+        <td class="align-c">72,015 </td>
+        <td class="align-c">425,475 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">DEWITT</div></th>
+        <td class="align-c">10 </td>
+        <td class="align-c">11,744 </td>
+        <td class="align-c">882 </td>
+        <td class="align-c">10,862 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">DICKENS</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">1,288 </td>
+        <td class="align-c">6 </td>
+        <td class="align-c">1,282 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">DIMMIT</div></th>
+        <td class="align-c">7 </td>
+        <td class="align-c">7,378 </td>
+        <td class="align-c">793 </td>
+        <td class="align-c">6,585 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">DONLEY</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">2,237 </td>
+        <td class="align-c">203 </td>
+        <td class="align-c">2,034 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">DUVAL</div></th>
+        <td class="align-c">11 </td>
+        <td class="align-c">8,377 </td>
+        <td class="align-c">672 </td>
+        <td class="align-c">7,705 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">EASTLAND</div></th>
+        <td class="align-c">9 </td>
+        <td class="align-c">11,775 </td>
+        <td class="align-c">1,449 </td>
+        <td class="align-c">10,326 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">ECTOR</div></th>
+        <td class="align-c">40 </td>
+        <td class="align-c">76,536 </td>
+        <td class="align-c">8,172 </td>
+        <td class="align-c">68,364 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">EDWARDS</div></th>
+        <td class="align-c">5 </td>
+        <td class="align-c">1,449 </td>
+        <td class="align-c">100 </td>
+        <td class="align-c">1,349 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">ELLIS</div></th>
+        <td class="align-c">49</td>
+        <td class="align-c">108,349</td>
+        <td class="align-c">10,842</td>
+        <td class="align-c">97,507 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">EL PASO</div></th>
+        <td class="align-c">191</td>
+        <td class="align-c"> 455,992 </td>
+        <td class="align-c"> 44,920 </td>
+        <td class="align-c">411,072 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">ERATH</div></th>
+        <td class="align-c">21 </td>
+        <td class="align-c">22,492 </td>
+        <td class="align-c">2,247 </td>
+        <td class="align-c">20,245 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">FALLS</div></th>
+        <td class="align-c">13 </td>
+        <td class="align-c">10,399 </td>
+        <td class="align-c">1,727 </td>
+        <td class="align-c">8,672 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">FANNIN</div></th>
+        <td class="align-c">16 </td>
+        <td class="align-c">20,756 </td>
+        <td class="align-c">1,469 </td>
+        <td class="align-c">19,287 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">FAYETTE</div></th>
+        <td class="align-c">26 </td>
+        <td class="align-c">16,626 </td>
+        <td class="align-c">988 </td>
+        <td class="align-c">15,638 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">FISHER</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">2,682 </td>
+        <td class="align-c">71 </td>
+        <td class="align-c">2,611 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">FLOYD</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">3,965 </td>
+        <td class="align-c">416 </td>
+        <td class="align-c">3,549 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">FOARD</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">913 </td>
+        <td class="align-c">106 </td>
+        <td class="align-c">807 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">FORT BEND</div></th>
+        <td class="align-c">159 </td>
+        <td class="align-c">431,832 </td>
+        <td class="align-c">40,453 </td>
+        <td class="align-c">391,379 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">FRANKLIN</div></th>
+        <td class="align-c">8 </td>
+        <td class="align-c">6,807 </td>
+        <td class="align-c">792 </td>
+        <td class="align-c">6,015 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">FREESTONE</div></th>
+        <td class="align-c">15 </td>
+        <td class="align-c">11,978 </td>
+        <td class="align-c">1,165 </td>
+        <td class="align-c">10,813 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">FRIO</div></th>
+        <td class="align-c">9 </td>
+        <td class="align-c">8,606 </td>
+        <td class="align-c">1,304 </td>
+        <td class="align-c">7,302 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">GAINES</div></th>
+        <td class="align-c">8 </td>
+        <td class="align-c">8,921 </td>
+        <td class="align-c">569 </td>
+        <td class="align-c">8,352 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">GALVESTON</div></th>
+        <td class="align-c">175 </td>
+        <td class="align-c">212,630 </td>
+        <td class="align-c">27,230 </td>
+        <td class="align-c">185,400 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">GARZA</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">2,712 </td>
+        <td class="align-c">319 </td>
+        <td class="align-c">2,393 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">GILLESPIE</div></th>
+        <td class="align-c">13 </td>
+        <td class="align-c">19,294 </td>
+        <td class="align-c">1,354 </td>
+        <td class="align-c">17,940 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">GLASSCOCK</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">782 </td>
+        <td class="align-c">41 </td>
+        <td class="align-c">741 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">GOLIAD</div></th>
+        <td class="align-c">9 </td>
+        <td class="align-c">5,597 </td>
+        <td class="align-c">329 </td>
+        <td class="align-c">5,268 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">GONZALES</div></th>
+        <td class="align-c">15 </td>
+        <td class="align-c">12,210 </td>
+        <td class="align-c">1,244 </td>
+        <td class="align-c">10,966 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">GRAY</div></th>
+        <td class="align-c">7 </td>
+        <td class="align-c">12,493 </td>
+        <td class="align-c">994 </td>
+        <td class="align-c">11,499 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">GRAYSON</div></th>
+        <td class="align-c">36 </td>
+        <td class="align-c">80,863 </td>
+        <td class="align-c">9,895 </td>
+        <td class="align-c">70,968 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">GREGG</div></th>
+        <td class="align-c">21 </td>
+        <td class="align-c">69,893 </td>
+        <td class="align-c">8,775 </td>
+        <td class="align-c">61,118 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">GRIMES</div></th>
+        <td class="align-c">14 </td>
+        <td class="align-c">16,176 </td>
+        <td class="align-c">1,353 </td>
+        <td class="align-c">14,823 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">GUADALUPE</div></th>
+        <td class="align-c">72 </td>
+        <td class="align-c">100,552 </td>
+        <td class="align-c">10,761 </td>
+        <td class="align-c">89,791 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HALE</div></th>
+        <td class="align-c">30 </td>
+        <td class="align-c">19,170 </td>
+        <td class="align-c">2,435 </td>
+        <td class="align-c">16,735 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HALL</div></th>
+        <td class="align-c">7 </td>
+        <td class="align-c">1,987 </td>
+        <td class="align-c">294 </td>
+        <td class="align-c">1,693 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HAMILTON</div></th>
+        <td class="align-c">11 </td>
+        <td class="align-c">5,611 </td>
+        <td class="align-c">463 </td>
+        <td class="align-c">5,148 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HANSFORD</div></th>
+        <td class="align-c">8 </td>
+        <td class="align-c">3,034 </td>
+        <td class="align-c">272 </td>
+        <td class="align-c">2,762 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HARDEMAN</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">2,459 </td>
+        <td class="align-c">208 </td>
+        <td class="align-c">2,251 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HARDIN</div></th>
+        <td class="align-c">19 </td>
+        <td class="align-c">38,259 </td>
+        <td class="align-c">1,811 </td>
+        <td class="align-c">36,448 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HARRIS</div></th>
+        <td class="align-c">1,012 </td>
+        <td class="align-c">2,338,460 </td>
+        <td class="align-c">264,745 </td>
+        <td class="align-c">2,073,715 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HARRISON</div></th>
+        <td class="align-c">27 </td>
+        <td class="align-c">44,462 </td>
+        <td class="align-c">5,604 </td>
+        <td class="align-c">38,858 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HARTLEY</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">2,875 </td>
+        <td class="align-c">391 </td>
+        <td class="align-c">2,484 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HASKELL</div></th>
+        <td class="align-c">10 </td>
+        <td class="align-c">3,331 </td>
+        <td class="align-c">447 </td>
+        <td class="align-c">2,884 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HAYS</div></th>
+        <td class="align-c">50 </td>
+        <td class="align-c">134,403 </td>
+        <td class="align-c">18,142 </td>
+        <td class="align-c">116,261 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HEMPHILL</div></th>
+        <td class="align-c">8 </td>
+        <td class="align-c">2,289 </td>
+        <td class="align-c">140 </td>
+        <td class="align-c">2,149 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HENDERSON</div></th>
+        <td class="align-c">27 </td>
+        <td class="align-c">51,770 </td>
+        <td class="align-c">5,029 </td>
+        <td class="align-c">46,741 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HIDALGO</div></th>
+        <td class="align-c">255 </td>
+        <td class="align-c">361,562 </td>
+        <td class="align-c">25,868 </td>
+        <td class="align-c">335,694 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HILL</div></th>
+        <td class="align-c">23 </td>
+        <td class="align-c">22,743 </td>
+        <td class="align-c">2,192 </td>
+        <td class="align-c">20,551 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HOCKLEY</div></th>
+        <td class="align-c">14 </td>
+        <td class="align-c">13,582 </td>
+        <td class="align-c">1,412 </td>
+        <td class="align-c">12,170 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HOOD</div></th>
+        <td class="align-c">16 </td>
+        <td class="align-c">40,835 </td>
+        <td class="align-c">3,685 </td>
+        <td class="align-c">37,150 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HOPKINS</div></th>
+        <td class="align-c">21 </td>
+        <td class="align-c">22,706 </td>
+        <td class="align-c">722 </td>
+        <td class="align-c">21,984 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HOUSTON</div></th>
+        <td class="align-c">21 </td>
+        <td class="align-c">13,090 </td>
+        <td class="align-c">1,583 </td>
+        <td class="align-c">11,507 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HOWARD</div></th>
+        <td class="align-c">28 </td>
+        <td class="align-c">16,968 </td>
+        <td class="align-c">2,695 </td>
+        <td class="align-c">14,273 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HUDSPETH</div></th>
+        <td class="align-c">5 </td>
+        <td class="align-c">1,922 </td>
+        <td class="align-c">123 </td>
+        <td class="align-c">1,799 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HUNT</div></th>
+        <td class="align-c">34 </td>
+        <td class="align-c">55,193 </td>
+        <td class="align-c">6,288 </td>
+        <td class="align-c">48,905 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">HUTCHINSON</div></th>
+        <td class="align-c">8 </td>
+        <td class="align-c">13,547 </td>
+        <td class="align-c">1,559 </td>
+        <td class="align-c">11,988 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">IRION</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">1,314 </td>
+        <td class="align-c">194 </td>
+        <td class="align-c">1,120 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">JACK</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">5,082 </td>
+        <td class="align-c">489 </td>
+        <td class="align-c">4,593 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">JACKSON</div></th>
+        <td class="align-c">9 </td>
+        <td class="align-c">9,195 </td>
+        <td class="align-c">828 </td>
+        <td class="align-c">8,367 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">JASPER</div></th>
+        <td class="align-c">20 </td>
+        <td class="align-c">22,848 </td>
+        <td class="align-c">2,176 </td>
+        <td class="align-c">20,672 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">JEFF DAVIS</div></th>
+        <td class="align-c">5 </td>
+        <td class="align-c">1,719 </td>
+        <td class="align-c">147 </td>
+        <td class="align-c">1,572 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">JEFFERSON</div></th>
+        <td class="align-c">109 </td>
+        <td class="align-c">148,344 </td>
+        <td class="align-c">15,934 </td>
+        <td class="align-c">132,410 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">JIM HOGG</div></th>
+        <td class="align-c">5 </td>
+        <td class="align-c">3,833 </td>
+        <td class="align-c">347 </td>
+        <td class="align-c">3,486 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">JIM WELLS</div></th>
+        <td class="align-c">21 </td>
+        <td class="align-c">26,438 </td>
+        <td class="align-c">1,706 </td>
+        <td class="align-c">24,732 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">JOHNSON</div></th>
+        <td class="align-c">36 </td>
+        <td class="align-c">97,157 </td>
+        <td class="align-c">9,263 </td>
+        <td class="align-c">87,894 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">JONES</div></th>
+        <td class="align-c">11 </td>
+        <td class="align-c">10,024 </td>
+        <td class="align-c">1,007 </td>
+        <td class="align-c">9,017 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">KARNES</div></th>
+        <td class="align-c">15 </td>
+        <td class="align-c">8,071 </td>
+        <td class="align-c">545 </td>
+        <td class="align-c">7,526 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">KAUFMAN</div></th>
+        <td class="align-c">30 </td>
+        <td class="align-c">72,579 </td>
+        <td class="align-c">7,741 </td>
+        <td class="align-c">64,838 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">KENDALL</div></th>
+        <td class="align-c">11 </td>
+        <td class="align-c">30,774 </td>
+        <td class="align-c">2,735 </td>
+        <td class="align-c">28,039 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">KENEDY</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">309 </td>
+        <td class="align-c">27 </td>
+        <td class="align-c">282 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">KENT</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">588 </td>
+        <td class="align-c">43 </td>
+        <td class="align-c">545 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">KERR</div></th>
+        <td class="align-c">21 </td>
+        <td class="align-c">35,854 </td>
+        <td class="align-c">3,473 </td>
+        <td class="align-c">32,381 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">KIMBLE</div></th>
+        <td class="align-c">7 </td>
+        <td class="align-c">2,908 </td>
+        <td class="align-c">226 </td>
+        <td class="align-c">2,682 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">KING</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">184 </td>
+        <td class="align-c">10 </td>
+        <td class="align-c">174 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">KINNEY</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">2,255 </td>
+        <td class="align-c">194 </td>
+        <td class="align-c">2,061 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">KLEBERG</div></th>
+        <td class="align-c">20 </td>
+        <td class="align-c">18,186 </td>
+        <td class="align-c">2,021 </td>
+        <td class="align-c">16,165 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">KNOX</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">2,434 </td>
+        <td class="align-c">346 </td>
+        <td class="align-c">2,088 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">LAMAR</div></th>
+        <td class="align-c">32 </td>
+        <td class="align-c">31,591 </td>
+        <td class="align-c">3,643 </td>
+        <td class="align-c">27,948 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">LAMB</div></th>
+        <td class="align-c">12 </td>
+        <td class="align-c">8,096 </td>
+        <td class="align-c">750 </td>
+        <td class="align-c">7,346 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">LAMPASAS</div></th>
+        <td class="align-c">10 </td>
+        <td class="align-c">14,099 </td>
+        <td class="align-c">1,305 </td>
+        <td class="align-c">12,794 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">LASALLE</div></th>
+        <td class="align-c">7 </td>
+        <td class="align-c">4,300 </td>
+        <td class="align-c">363 </td>
+        <td class="align-c">3,937 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">LAVACA</div></th>
+        <td class="align-c">19 </td>
+        <td class="align-c">13,234 </td>
+        <td class="align-c">970 </td>
+        <td class="align-c">12,264 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">LEE</div></th>
+        <td class="align-c">15 </td>
+        <td class="align-c">10,453 </td>
+        <td class="align-c">754 </td>
+        <td class="align-c">9,699 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">LEON</div></th>
+        <td class="align-c">17 </td>
+        <td class="align-c">11,163 </td>
+        <td class="align-c">597 </td>
+        <td class="align-c">10,566 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">LIBERTY</div></th>
+        <td class="align-c">30 </td>
+        <td class="align-c">43,981 </td>
+        <td class="align-c">4,538 </td>
+        <td class="align-c">39,443 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">LIMESTONE</div></th>
+        <td class="align-c">21 </td>
+        <td class="align-c">13,621 </td>
+        <td class="align-c">1,597 </td>
+        <td class="align-c">12,024 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">LIPSCOMB</div></th>
+        <td class="align-c">9 </td>
+        <td class="align-c">1,988 </td>
+        <td class="align-c">186 </td>
+        <td class="align-c">1,802 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">LIVE OAK</div></th>
+        <td class="align-c">14 </td>
+        <td class="align-c">7,240 </td>
+        <td class="align-c">744 </td>
+        <td class="align-c">6,496 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">LLANO</div></th>
+        <td class="align-c">9 </td>
+        <td class="align-c">15,758 </td>
+        <td class="align-c">1,506 </td>
+        <td class="align-c">14,252 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">LOVING</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">121 </td>
+        <td class="align-c">21 </td>
+        <td class="align-c">100 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">LUBBOCK</div></th>
+        <td class="align-c">133 </td>
+        <td class="align-c">175,881 </td>
+        <td class="align-c">26,354 </td>
+        <td class="align-c">149,527 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">LYNN</div></th>
+        <td class="align-c">14 </td>
+        <td class="align-c">3,945 </td>
+        <td class="align-c">314 </td>
+        <td class="align-c">3,631 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">MADISON</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">7,428 </td>
+        <td class="align-c">625 </td>
+        <td class="align-c">6,803 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">MARION</div></th>
+        <td class="align-c">10 </td>
+        <td class="align-c">7,368 </td>
+        <td class="align-c">796 </td>
+        <td class="align-c">6,572 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">MARTIN</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">3,252 </td>
+        <td class="align-c">249 </td>
+        <td class="align-c">3,003 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">MASON</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">2,956 </td>
+        <td class="align-c">169 </td>
+        <td class="align-c">2,787 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">MATAGORDA</div></th>
+        <td class="align-c">18 </td>
+        <td class="align-c">21,654 </td>
+        <td class="align-c">2,884 </td>
+        <td class="align-c">18,770 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">MAVERICK</div></th>
+        <td class="align-c">14 </td>
+        <td class="align-c">31,453 </td>
+        <td class="align-c">1,822 </td>
+        <td class="align-c">29,631 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">MCCULLOCH</div></th>
+        <td class="align-c">9 </td>
+        <td class="align-c">5,243 </td>
+        <td class="align-c">557 </td>
+        <td class="align-c">4,686 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">MCLENNAN</div></th>
+        <td class="align-c">91 </td>
+        <td class="align-c">139,699 </td>
+        <td class="align-c">14,648 </td>
+        <td class="align-c">125,051 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">MCMULLEN</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">704 </td>
+        <td class="align-c">61 </td>
+        <td class="align-c">643 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">MEDINA</div></th>
+        <td class="align-c">14 </td>
+        <td class="align-c">31,354 </td>
+        <td class="align-c">2,623 </td>
+        <td class="align-c">28,731 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">MENARD</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">1,443 </td>
+        <td class="align-c">107 </td>
+        <td class="align-c">1,336 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">MIDLAND</div></th>
+        <td class="align-c">45 </td>
+        <td class="align-c">84,393 </td>
+        <td class="align-c">10,591 </td>
+        <td class="align-c">73,802 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">MILAM</div></th>
+        <td class="align-c">11 </td>
+        <td class="align-c">15,038 </td>
+        <td class="align-c">1,554 </td>
+        <td class="align-c">13,484 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">MILLS</div></th>
+        <td class="align-c">7 </td>
+        <td class="align-c">3,426 </td>
+        <td class="align-c">374 </td>
+        <td class="align-c">3,052 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">MITCHELL</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">4,562 </td>
+        <td class="align-c">689 </td>
+        <td class="align-c">3,873 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">MONTAGUE</div></th>
+        <td class="align-c">15 </td>
+        <td class="align-c">13,588 </td>
+        <td class="align-c">1,491 </td>
+        <td class="align-c">12,097 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">MONTGOMERY</div></th>
+        <td class="align-c">96 </td>
+        <td class="align-c">333,488 </td>
+        <td class="align-c">41,784 </td>
+        <td class="align-c">291,704 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">MOORE</div></th>
+        <td class="align-c">7 </td>
+        <td class="align-c">9,764 </td>
+        <td class="align-c">1,043 </td>
+        <td class="align-c">8,721 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">MORRIS</div></th>
+        <td class="align-c">8 </td>
+        <td class="align-c">8,302 </td>
+        <td class="align-c">663 </td>
+        <td class="align-c">7,639 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">MOTLEY</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">847 </td>
+        <td class="align-c">28 </td>
+        <td class="align-c">819 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">NACOGDOCHES</div></th>
+        <td class="align-c">25 </td>
+        <td class="align-c">36,993 </td>
+        <td class="align-c">3,530 </td>
+        <td class="align-c">33,463 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">NAVARRO</div></th>
+        <td class="align-c">34 </td>
+        <td class="align-c">28,641 </td>
+        <td class="align-c">3,307 </td>
+        <td class="align-c">25,334 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">NEWTON</div></th>
+        <td class="align-c">22 </td>
+        <td class="align-c">9,293 </td>
+        <td class="align-c">801 </td>
+        <td class="align-c">8,492 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">NOLAN</div></th>
+        <td class="align-c">9 </td>
+        <td class="align-c">8,778 </td>
+        <td class="align-c">955 </td>
+        <td class="align-c">7,823 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">NUECES</div></th>
+        <td class="align-c">127 </td>
+        <td class="align-c">205,176 </td>
+        <td class="align-c">30,162 </td>
+        <td class="align-c">175,014 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">OCHILTREE</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">5,216 </td>
+        <td class="align-c">589 </td>
+        <td class="align-c">4,627 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">OLDHAM</div></th>
+        <td class="align-c">7 </td>
+        <td class="align-c">1,417 </td>
+        <td class="align-c">167 </td>
+        <td class="align-c">1,250 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">ORANGE</div></th>
+        <td class="align-c">34 </td>
+        <td class="align-c">53,392 </td>
+        <td class="align-c">5,259 </td>
+        <td class="align-c">48,133 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">PALO PINTO</div></th>
+        <td class="align-c">30 </td>
+        <td class="align-c">17,984 </td>
+        <td class="align-c">1,908 </td>
+        <td class="align-c">16,076 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">PANOLA</div></th>
+        <td class="align-c">19 </td>
+        <td class="align-c">16,392 </td>
+        <td class="align-c">1,300 </td>
+        <td class="align-c">15,092 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">PARKER</div></th>
+        <td class="align-c">44 </td>
+        <td class="align-c">91,858 </td>
+        <td class="align-c">8,477 </td>
+        <td class="align-c">83,381 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">PARMER</div></th>
+        <td class="align-c">12 </td>
+        <td class="align-c">4,428 </td>
+        <td class="align-c">220 </td>
+        <td class="align-c">4,208 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">PECOS</div></th>
+        <td class="align-c">9 </td>
+        <td class="align-c">8,223 </td>
+        <td class="align-c">874 </td>
+        <td class="align-c">7,349 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">POLK</div></th>
+        <td class="align-c">21 </td>
+        <td class="align-c">38,018 </td>
+        <td class="align-c">4,900 </td>
+        <td class="align-c">33,118 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">POTTER</div></th>
+        <td class="align-c">25 </td>
+        <td class="align-c">55,580 </td>
+        <td class="align-c">8,705 </td>
+        <td class="align-c">46,875 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">PRESIDIO</div></th>
+        <td class="align-c">7 </td>
+        <td class="align-c">4,884 </td>
+        <td class="align-c">1,133 </td>
+        <td class="align-c">3,751 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">RAINS</div></th>
+        <td class="align-c">8 </td>
+        <td class="align-c">7,668 </td>
+        <td class="align-c">678 </td>
+        <td class="align-c">6,990 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">RANDALL</div></th>
+        <td class="align-c">22 </td>
+        <td class="align-c">87,827 </td>
+        <td class="align-c">10,067 </td>
+        <td class="align-c">77,760 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">REAGAN</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">1,845 </td>
+        <td class="align-c">158 </td>
+        <td class="align-c">1,687 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">REAL</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">2,590 </td>
+        <td class="align-c">187 </td>
+        <td class="align-c">2,403 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">RED RIVER</div></th>
+        <td class="align-c">23 </td>
+        <td class="align-c">8,268 </td>
+        <td class="align-c">652 </td>
+        <td class="align-c">7,616 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">REEVES</div></th>
+        <td class="align-c">11 </td>
+        <td class="align-c">7,089 </td>
+        <td class="align-c">379 </td>
+        <td class="align-c">6,710 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">REFUGIO</div></th>
+        <td class="align-c">10 </td>
+        <td class="align-c">4,949 </td>
+        <td class="align-c">460 </td>
+        <td class="align-c">4,489 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">ROBERTS</div></th>
+        <td class="align-c">5 </td>
+        <td class="align-c">707 </td>
+        <td class="align-c">43 </td>
+        <td class="align-c">664 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">ROBERTSON</div></th>
+        <td class="align-c">16 </td>
+        <td class="align-c">11,654 </td>
+        <td class="align-c">1,040 </td>
+        <td class="align-c">10,614 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">ROCKWALL</div></th>
+        <td class="align-c">17 </td>
+        <td class="align-c">62,933 </td>
+        <td class="align-c">5,745 </td>
+        <td class="align-c">57,188 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">RUNNELS</div></th>
+        <td class="align-c">10 </td>
+        <td class="align-c">6,692 </td>
+        <td class="align-c">772 </td>
+        <td class="align-c">5,920 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">RUSK</div></th>
+        <td class="align-c">22 </td>
+        <td class="align-c">31,242 </td>
+        <td class="align-c">3,633 </td>
+        <td class="align-c">27,609 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">SABINE</div></th>
+        <td class="align-c">10 </td>
+        <td class="align-c">7,802 </td>
+        <td class="align-c">680 </td>
+        <td class="align-c">7,122 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">SAN AUGUSTINE</div></th>
+        <td class="align-c">11 </td>
+        <td class="align-c">5,989 </td>
+        <td class="align-c">501 </td>
+        <td class="align-c">5,488 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">SAN JACINTO</div></th>
+        <td class="align-c">11 </td>
+        <td class="align-c">17,976 </td>
+        <td class="align-c">1,443 </td>
+        <td class="align-c">16,533 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">SAN PATRICIO</div></th>
+        <td class="align-c">25 </td>
+        <td class="align-c">41,762 </td>
+        <td class="align-c">5,163 </td>
+        <td class="align-c">36,599 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">SAN SABA</div></th>
+        <td class="align-c">7 </td>
+        <td class="align-c">3,737 </td>
+        <td class="align-c">418 </td>
+        <td class="align-c">3,319 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">SCHLEICHER</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">1,789 </td>
+        <td class="align-c">316 </td>
+        <td class="align-c">1,473 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">SCURRY</div></th>
+        <td class="align-c">11 </td>
+        <td class="align-c">9,393 </td>
+        <td class="align-c">1,066 </td>
+        <td class="align-c">8,327 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">SHACKELFORD</div></th>
+        <td class="align-c">7 </td>
+        <td class="align-c">2,320 </td>
+        <td class="align-c">260 </td>
+        <td class="align-c">2,060 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">SHELBY</div></th>
+        <td class="align-c">14 </td>
+        <td class="align-c">15,294 </td>
+        <td class="align-c">1,069 </td>
+        <td class="align-c">14,225 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">SHERMAN</div></th>
+        <td class="align-c">7 </td>
+        <td class="align-c">1,535 </td>
+        <td class="align-c">165 </td>
+        <td class="align-c">1,370 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">SMITH</div></th>
+        <td class="align-c">73 </td>
+        <td class="align-c">134,712 </td>
+        <td class="align-c">9,290 </td>
+        <td class="align-c">125,422 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">SOMERVELL</div></th>
+        <td class="align-c">8 </td>
+        <td class="align-c">6,287 </td>
+        <td class="align-c">563 </td>
+        <td class="align-c">5,724 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">STARR</div></th>
+        <td class="align-c">10 </td>
+        <td class="align-c">33,110 </td>
+        <td class="align-c">1,820 </td>
+        <td class="align-c">31,290 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">STEPHENS</div></th>
+        <td class="align-c">9 </td>
+        <td class="align-c">5,573 </td>
+        <td class="align-c">610 </td>
+        <td class="align-c">4,963 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">STERLING</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">880 </td>
+        <td class="align-c">52 </td>
+        <td class="align-c">828 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">STONEWALL</div></th>
+        <td class="align-c">9 </td>
+        <td class="align-c">957 </td>
+        <td class="align-c">14 </td>
+        <td class="align-c">943 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">SUTTON</div></th>
+        <td class="align-c">8 </td>
+        <td class="align-c">2,478 </td>
+        <td class="align-c">294 </td>
+        <td class="align-c">2,184 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">SWISHER</div></th>
+        <td class="align-c">8 </td>
+        <td class="align-c">3,968 </td>
+        <td class="align-c">485 </td>
+        <td class="align-c">3,483 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">TARRANT</div></th>
+        <td class="align-c">704 </td>
+        <td class="align-c">1,122,597 </td>
+        <td class="align-c">160,883 </td>
+        <td class="align-c">961,714 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">TAYLOR</div></th>
+        <td class="align-c">34 </td>
+        <td class="align-c">80,168 </td>
+        <td class="align-c">12,299 </td>
+        <td class="align-c">67,869 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">TERRELL</div></th>
+        <td class="align-c">4 </td>
+        <td class="align-c">694 </td>
+        <td class="align-c">44 </td>
+        <td class="align-c">650 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">TERRY</div></th>
+        <td class="align-c">8 </td>
+        <td class="align-c">6,633 </td>
+        <td class="align-c">907 </td>
+        <td class="align-c">5,726 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">THROCKMORTON</div></th>
+        <td class="align-c">5 </td>
+        <td class="align-c">1,219 </td>
+        <td class="align-c">178 </td>
+        <td class="align-c">1,041 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">TITUS</div></th>
+        <td class="align-c">19 </td>
+        <td class="align-c">17,020 </td>
+        <td class="align-c">1,761 </td>
+        <td class="align-c">15,259 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">TOM GREEN</div></th>
+        <td class="align-c">34 </td>
+        <td class="align-c">66,826 </td>
+        <td class="align-c">8,820 </td>
+        <td class="align-c">58,006 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">TRAVIS</div></th>
+        <td class="align-c">247 </td>
+        <td class="align-c">775,950 </td>
+        <td class="align-c">108,720 </td>
+        <td class="align-c">667,230 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">TRINITY</div></th>
+        <td class="align-c">20 </td>
+        <td class="align-c">11,455 </td>
+        <td class="align-c">1,107 </td>
+        <td class="align-c">10,348 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">TYLER</div></th>
+        <td class="align-c">17 </td>
+        <td class="align-c">13,725 </td>
+        <td class="align-c">1,160 </td>
+        <td class="align-c">12,565 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">UPSHUR</div></th>
+        <td class="align-c">21 </td>
+        <td class="align-c">27,708 </td>
+        <td class="align-c">2,951 </td>
+        <td class="align-c">24,757 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">UPTON</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">2,116 </td>
+        <td class="align-c">110 </td>
+        <td class="align-c">2,006 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">UVALDE</div></th>
+        <td class="align-c">14 </td>
+        <td class="align-c">17,118 </td>
+        <td class="align-c">1,778 </td>
+        <td class="align-c">15,340 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">VAL VERDE</div></th>
+        <td class="align-c">17 </td>
+        <td class="align-c">27,972 </td>
+        <td class="align-c">3,924 </td>
+        <td class="align-c">24,048 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">VAN ZANDT</div></th>
+        <td class="align-c">20 </td>
+        <td class="align-c">36,982 </td>
+        <td class="align-c">4,011 </td>
+        <td class="align-c">32,971 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">VICTORIA</div></th>
+        <td class="align-c">35 </td>
+        <td class="align-c">55,473 </td>
+        <td class="align-c">6,085 </td>
+        <td class="align-c">49,388 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">WALKER</div></th>
+        <td class="align-c">16 </td>
+        <td class="align-c">33,422 </td>
+        <td class="align-c">3,750 </td>
+        <td class="align-c">29,672 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">WALLER</div></th>
+        <td class="align-c">21 </td>
+        <td class="align-c">32,584 </td>
+        <td class="align-c">3,844 </td>
+        <td class="align-c">28,740 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">WARD</div></th>
+        <td class="align-c">8 </td>
+        <td class="align-c">6,522 </td>
+        <td class="align-c">580 </td>
+        <td class="align-c">5,942 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">WASHINGTON</div></th>
+        <td class="align-c">21 </td>
+        <td class="align-c">23,253 </td>
+        <td class="align-c">2,007 </td>
+        <td class="align-c">21,246 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">WEBB</div></th>
+        <td class="align-c">69 </td>
+        <td class="align-c">130,784 </td>
+        <td class="align-c">9,011 </td>
+        <td class="align-c">121,773 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">WHARTON</div></th>
+        <td class="align-c">12 </td>
+        <td class="align-c">25,132 </td>
+        <td class="align-c">1,820 </td>
+        <td class="align-c">23,312 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">WHEELER</div></th>
+        <td class="align-c">10 </td>
+        <td class="align-c">3,415 </td>
+        <td class="align-c">353 </td>
+        <td class="align-c">3,062 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">WICHITA</div></th>
+        <td class="align-c">59 </td>
+        <td class="align-c">81,419 </td>
+        <td class="align-c">15,917 </td>
+        <td class="align-c">65,502 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">WILBARGER</div></th>
+        <td class="align-c">5 </td>
+        <td class="align-c">8,134 </td>
+        <td class="align-c">5 </td>
+        <td class="align-c">8,129 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">WILLACY</div></th>
+        <td class="align-c">17 </td>
+        <td class="align-c">12,405 </td>
+        <td class="align-c">1,787 </td>
+        <td class="align-c">10,618 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">WILLIAMSON</div></th>
+        <td class="align-c">94 </td>
+        <td class="align-c">331,985 </td>
+        <td class="align-c">39,642 </td>
+        <td class="align-c">292,343 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">WILSON</div></th>
+        <td class="align-c">16 </td>
+        <td class="align-c">32,537 </td>
+        <td class="align-c">2,527 </td>
+        <td class="align-c">30,010 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">WINKLER</div></th>
+        <td class="align-c">5 </td>
+        <td class="align-c">3,870 </td>
+        <td class="align-c">337 </td>
+        <td class="align-c">3,533 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">WISE</div></th>
+        <td class="align-c">25 </td>
+        <td class="align-c">41,749 </td>
+        <td class="align-c">3,789 </td>
+        <td class="align-c">37,960 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">WOOD</div></th>
+        <td class="align-c">14 </td>
+        <td class="align-c">30,065 </td>
+        <td class="align-c">2,758 </td>
+        <td class="align-c">27,307 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">YOAKUM</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">4,264 </td>
+        <td class="align-c">357 </td>
+        <td class="align-c">3,907 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">YOUNG</div></th>
+        <td class="align-c">9 </td>
+        <td class="align-c">11,854 </td>
+        <td class="align-c">1,378 </td>
+        <td class="align-c">10,476 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">ZAPATA</div></th>
+        <td class="align-c">7 </td>
+        <td class="align-c">7,587 </td>
+        <td class="align-c">1,557 </td>
+        <td class="align-c">6,030 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">ZAVALA</div></th>
+        <td class="align-c">6 </td>
+        <td class="align-c">8,157 </td>
+        <td class="align-c">683 </td>
+        <td class="align-c">7,474 </td>
+      </tr>
+      <tr>
+        <th scope="row"><div align="left">Statewide Total</div></th>
+        <td class="align-c">9,107 </td>
+        <td class="align-c">15,793,257 </td>
+        <td class="align-c">1,879,611 </td>
+        <td class="align-c">13,913,646 </td>
+      </tr>
+    </table>
+	<br />
+</div>
+<!-- end content -->
+  <div id="lower-container">
+<div id="lower-div">
+  
+<div id="lower-nav-col-1">
+      <ul>
+        <li> <a href="/modernization.shtml">NEW: SOS Modernization Program</a></li>
+        <li><a href="/corp/sosda/index.shtml">SOSPortal - Business Filings</a></li>
+        <li><a href="/corp/filingandothergeneralfaqs.shtml#CC">Business Copies and Certificates</a></li>
+        <li><a href="/ucc/index.shtml">Uniform Commercial Code</a></li>
+        <li><a href="/tbat/index.shtml">Texas Businesses Against Trafficking</a></li>
+      </ul>
+</div>
+	
+
+<div id="lower-nav-col-2">
+<ul>
+	  <li><a href="https://www.votetexas.gov">VoteTexas.gov - Voter Information</a></li>
+	  <li><a href="/policies.shtml">Website Policies</a></li>
+	  <li><a href="/records.shtml">Open Records</a> </li>
+	  <li><a href="http://www.texas.gov">Texas.gov </a></li>
+	  <li><a href="/contact.shtml">Contacts</a></li>
+	</ul>
+</div>
+
+	
+<div id="lower-nav-col-3">
+	<ul>
+        <li><a href="https://www.tsl.texas.gov/trail/index.html">Texas State Library &amp; Archives</a></li>
+        <li><a href="http://www.texashomelandsecurity.com/">Texas Homeland Security</a></li>
+	    <li><a href="https://comptroller.texas.gov/transparency/">Where the Money Goes</a></li>
+        <li><a href="https://sao.fraud.texas.gov/ReportFraud/">Fraud Reporting</a></li>
+        <li><a href="http://veterans.portal.texas.gov">Texas Veterans Portal</a></li>
+	</ul>
+</div>	
+  
+	</div>
+	
+<div id="sub-footer">
+<br>
+
+  	<a href="https://www.facebook.com/txsecretary"><img src="/images/social/facebook-blue.png" width="31" height="31" alt="Facebook"/></a>&nbsp;<a href="https://www.instagram.com/texassecretary/"><img src="/images/social/instagram-blue.png" width="31" height="31" alt="Instragram"/></a>&nbsp;<a href="https://twitter.com/TXsecofstate"><img src="/images/social/twitter-blue.png" width="31" height="31" alt="Twitter"/></a>&nbsp;<a href="https://www.youtube.com/channel/UC7NJ9yjB4K-1MOMFzH6hAbQ/videos"><img src="/images/social/youtube-blue.png" width="31" height="31" alt="YouTube"/></a>&nbsp;<a href="/rss/index.shtml"><img src="/images/social/rss-blue.png" width="31" height="31" alt="RSS Feed"/></a>&nbsp;<a href="https://public.govdelivery.com/accounts/TXSOS/subscriber/new?qsp=TXSOS_1"><img src="/images/social/mail-blue.png" width="31" height="31" alt="Receive email updates"/></a> 
+	<!-- <br><br><br><br>--><br><br>
+</div>
+</div>
+
+
+</div><!-- end container -->
+</body>
+</html>
