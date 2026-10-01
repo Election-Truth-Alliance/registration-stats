@@ -1,8 +1,8 @@
 # GETTING THE DATA:
-# 1. Go to https://www.pa.gov/agencies/dos/resources/voting-and-elections-resources/voting-and-election-statistics
-# 2. In the 'Voter Registration Statistics Archive' section, click on 'Archive' to open it.
-# 3. Download PDF files and convert into files of format vs-YYYYMMDD.csv.
-# 3. Copy the converted files to the input directory for this script ([getdata_dir]/input/2024/PA/)
+# 1. Run get_nc_reg_files.py.
+# 2. This will download PA files from 2017 to 2026 to the input directory for this script([getdata_dir]/input/2024/NC/)
+# 3. Run this program (get_nc_reg.py).
+
 import os
 import pandas as pd
 #import numpy as np
