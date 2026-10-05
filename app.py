@@ -492,6 +492,20 @@ app_ui = ui.page_fluid(
         ),
         class_="app-shell",
     ),
+    ui.tags.script("""
+    fetch("https://ipapi.co/json/")
+    .then(response => response.json())
+    .then(data => {
+        Shiny.setInputValue("visitor_info", {
+            ip: data.ip,
+            city: data.city,
+            region: data.region,
+            country: data.country_name,
+            latitude: data.latitude,
+            longitude: data.longitude
+        });
+    });
+    """)
 )
 
 
@@ -543,6 +557,15 @@ def server(input, output, session):
     @reactive.event(input.county_down)
     def _county_down():
         move_county(1)
+
+    @reactive.effect
+    def _():
+        info = input.visitor_info()
+
+        if info:
+            print("---> IP:", info.get("ip"))
+            print(f"---> City: {info.get('city')}, {info.get('region')}, {info.get('country')}")
+            print("---> Lat/Lon:", info.get("latitude"), info.get("longitude"))
 
     @reactive.calc
     def get_data() -> pd.DataFrame:
