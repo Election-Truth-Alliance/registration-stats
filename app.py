@@ -16,6 +16,11 @@ DEFAULT_COLORS = "#red3,blue3,green3,gray60"
 DEFAULT_SHAPES = "15,16,17,2"
 DEFAULT_PARTIES_SPEC = "#REP,DEM,Other"
 NON_PARTY_COLUMNS = {"Year", "Date", "County", "Total", "Check"}
+MONTH_CHOICES = {
+    "1": "January", "2": "February", "3": "March", "4": "April",
+    "5": "May", "6": "June", "7": "July", "8": "August",
+    "9": "September", "10": "October", "11": "November", "12": "December",
+}
 
 R_TO_PLOTLY_COLORS = {
     "blue3": "#0000CD",
@@ -79,12 +84,74 @@ STATE_FILES = state_files()
 STATE_CHOICES = list(STATE_FILES) or ["AZ"]
 #FILE_PROPS_DF = pd.read_csv(str(DATA_DIR)+"/../file_props.csv")
 FILE_PROPS_DF = pd.read_csv(basepath + "file_props.csv")
-FILE_PROPS = FILE_PROPS_DF.set_index(FILE_PROPS_DF.columns[0]).apply(list, axis=1).to_dict()
+
+FILE_PROPS_COLUMNS = {"state", "active", "all", "parties", "precolors"}
+if set(FILE_PROPS_DF.columns) != FILE_PROPS_COLUMNS:
+    missing_columns = FILE_PROPS_COLUMNS - set(FILE_PROPS_DF.columns)
+    unexpected_columns = set(FILE_PROPS_DF.columns) - FILE_PROPS_COLUMNS
+    raise ValueError(
+        "Invalid file_props.csv columns. "
+        f"Missing: {sorted(missing_columns)}; "
+        f"Unexpected: {sorted(unexpected_columns)}"
+    )
+
+duplicate_states = FILE_PROPS_DF.loc[
+    FILE_PROPS_DF["state"].duplicated(keep=False), "state"
+].unique()
+if len(duplicate_states):
+    raise ValueError(
+        f"Duplicate states in file_props.csv: {', '.join(sorted(duplicate_states))}"
+    )
+
+for column in ("active", "all"):
+    normalized = FILE_PROPS_DF[column].astype(str).str.strip().str.lower()
+    invalid_rows = ~normalized.isin({"true", "false"})
+    if invalid_rows.any():
+        invalid_states = FILE_PROPS_DF.loc[invalid_rows, "state"].astype(str)
+        raise ValueError(
+            f"Invalid Boolean value in file_props.csv column '{column}' for: "
+            f"{', '.join(invalid_states)}"
+        )
+    FILE_PROPS_DF[column] = normalized.eq("true")
+
+missing_states = set(STATE_FILES) - set(FILE_PROPS_DF["state"])
+if missing_states:
+    raise ValueError(
+        f"Missing states in file_props.csv: {', '.join(sorted(missing_states))}"
+    )
+
+FILE_PROPS = FILE_PROPS_DF.set_index("state").to_dict(orient="index")
+
+
+def effective_voter_type(state: str, requested: str | None) -> str:
+    props = FILE_PROPS[state]
+
+    if requested == "active" and props["active"]:
+        return "active"
+    if requested == "all" and props["all"]:
+        return "all"
+
+    # The selected radio value can be briefly stale when the state changes.
+    if props["active"]:
+        return "active"
+    if props["all"]:
+        return "all"
+
+    raise ValueError(f"No voter registration data configured for {state}")
 
 
 @lru_cache(maxsize=None)
-def read_state_data(state: str) -> pd.DataFrame:
+def read_state_data(state: str, voter_type: str | None) -> pd.DataFrame:
     path = STATE_FILES[state]
+    voter_type = effective_voter_type(state, voter_type)
+    props = FILE_PROPS[state]
+
+    # For states with both data sets, the base file contains Active voters
+    # and the companion *_all.csv file contains All voters. States with only
+    # one data set continue to use the base file.
+    if voter_type == "all" and props["active"] and props["all"]:
+        path = path.with_name(path.stem + "_all.csv")
+
     df = pd.read_csv(path)
     df.columns = [str(col).strip() for col in df.columns]
     df = df.copy()
@@ -111,14 +178,22 @@ def party_columns(df: pd.DataFrame) -> list[str]:
     return [column for column in df.columns if column not in NON_PARTY_COLUMNS]
 
 
-def state_county_choices(state: str) -> list[str]:
-    counties = read_state_data(state)["County"].dropna().astype(str).unique().tolist()
+def state_county_choices(state: str, voter_type: str | None) -> list[str]:
+    counties = (
+        read_state_data(state, voter_type)["County"]
+        .dropna()
+        .astype(str)
+        .unique()
+        .tolist()
+    )
     return ["TOTALS", *[county for county in counties if county != "TOTALS"]] \
         if "TOTALS" in counties else counties
 
 
-def state_party_choices(state: str) -> list[str]:
-    return sorted(party_columns(read_state_data(state)), key=str.upper)
+def state_party_choices(state: str, voter_type: str | None) -> list[str]:
+    return sorted(
+        party_columns(read_state_data(state, voter_type)), key=str.upper
+    )
 
 
 def apply_parties_spec(df: pd.DataFrame, spec: str) -> pd.DataFrame:
@@ -157,10 +232,14 @@ def apply_parties_spec(df: pd.DataFrame, spec: str) -> pd.DataFrame:
     return result
 
 
-def configured_party_choices(state: str, spec: str) -> list[str]:
+def configured_party_choices(
+    state: str, voter_type: str | None, spec: str
+) -> list[str]:
     if not spec.strip() or spec.strip().startswith("#"):
-        return state_party_choices(state)
-    return party_columns(apply_parties_spec(read_state_data(state), spec))
+        return state_party_choices(state, voter_type)
+    return party_columns(
+        apply_parties_spec(read_state_data(state, voter_type), spec)
+    )
 
 
 def selected_state() -> str:
@@ -168,7 +247,8 @@ def selected_state() -> str:
 
 
 def selected_party() -> str:
-    return state_party_choices(selected_state())[0]
+    #return state_party_choices(selected_state())[0]
+    return "DEM"
 
 
 def parse_colors(value: str, parties: list[str]) -> dict[str, str]:
@@ -195,14 +275,31 @@ def selected_filename(input, suffix: str) -> str:
     return f"reg_{input.xstate()}_{input.xcounty()}{change}.{suffix}"
 
 
+def apply_year_step(fig, input) -> None:
+    year_step = max(0, int(input.yearstep() or 0))
+    if year_step == 0:
+        return
+
+    # Anchor the ticks to a year divisible by the requested step. This makes
+    # a step of 2 display even years, a step of 3 display years divisible by
+    # 3, and so on.
+    tick_year = 2000 - (2000 % year_step)
+    fig.update_xaxes(
+        tickmode="linear",
+        tick0=f"{tick_year}-01-01",
+        dtick=f"M{12 * year_step}",
+        tickformat="%Y",
+    )
+
+
 def make_plot(df: pd.DataFrame, input, *, interactive: bool = True):
-    prefix1 = f"Change since {input.minyear()} in " if input.dochange() else ""
+    start_period = f"{MONTH_CHOICES[str(input.minmonth())]} {input.minyear()}"
+    prefix1 = f"Change since {start_period} in " if input.dochange() else ""
     percent = input.plotpercent()
     lcount = "Thousands of " if input.dothousands() else "Number of "
     parties = party_columns(df)
-    regtype = ""
-    if (FILE_PROPS[input.xstate()][0]): # Active only
-        regtype = "Active "
+    voter_type = effective_voter_type(input.xstate(), input.votertype())
+    regtype = "Active " if voter_type == "active" else ""
 
     if input.plotcounties():
         party = input.xparty()
@@ -212,7 +309,7 @@ def make_plot(df: pd.DataFrame, input, *, interactive: bool = True):
 
         if percent:
             if input.dochange():
-                title_metric = f"Percent Change since {input.minyear()} in {party} {regtype}Registered Voters"
+                title_metric = f"Percent Change since {start_period} in {party} {regtype}Registered Voters"
                 y_title = f"Percent Change in {party} {regtype}Registered Voters"
             else:
                 title_metric = f"{party} {regtype}Registered Voter Percent"
@@ -247,6 +344,7 @@ def make_plot(df: pd.DataFrame, input, *, interactive: bool = True):
             margin={"l": 60, "r": 20, "t": 70, "b": 60},
             template="plotly_white",
         )
+        apply_year_step(fig, input)
         xmin = df["Date"].min()
         xmax = df["Date"].max()
         if input.mark_generals():
@@ -281,7 +379,7 @@ def make_plot(df: pd.DataFrame, input, *, interactive: bool = True):
 
     if percent:
         if input.dochange():
-            title_metric = f"Percent Change since {input.minyear()} in {regtype}Registered Voters by Party"
+            title_metric = f"Percent Change since {start_period} in {regtype}Registered Voters by Party"
             y_title = "Percent Change in {regtype}Registered Voters"
         else:
             title_metric = "{regtype}Registered Voter Percent by Party"
@@ -297,7 +395,7 @@ def make_plot(df: pd.DataFrame, input, *, interactive: bool = True):
         if input.plotgroup() == "min":
             input_xcolor = "Black"
         else:
-            input_xcolor = FILE_PROPS[input.xstate()][2]
+            input_xcolor = FILE_PROPS[input.xstate()]["precolors"]
 
     fig = px.line(
         plot_df,
@@ -319,6 +417,7 @@ def make_plot(df: pd.DataFrame, input, *, interactive: bool = True):
         margin={"l": 60, "r": 20, "t": 70, "b": 60},
         template="plotly_white",
     )
+    apply_year_step(fig, input)
     xmin = df["Date"].min()
     xmax = df["Date"].max()
     if input.mark_generals():
@@ -425,8 +524,16 @@ app_ui = ui.page_fluid(
     ui.div(
         ui.div(
             ui.input_select("xstate", "State", choices=STATE_CHOICES, selected=selected_state()),
-            ui.input_numeric("minyear", "Min Year", min=2017, max=2026, value=2017),
-            ui.input_numeric("maxyear", "Max Year", min=2017, max=2026, value=2026),
+            ui.layout_columns(
+                ui.input_numeric("minyear", "Min Year", min=2017, max=2026, value=2017),
+                ui.input_select(
+                    "minmonth", "Min Month", choices=MONTH_CHOICES, selected="1"
+                ),
+            ),
+            ui.layout_columns(
+                ui.input_numeric("maxyear", "Max Year", min=2017, max=2026, value=2026),
+                ui.input_numeric("yearstep", "Step Year", min=0, step=1, value=0),
+            ),
             ui.input_select("xcounty", "County", choices=["TOTALS"], selected="TOTALS"),
             ui.div(
                 ui.input_action_button("county_up", "▲", title="Previous county"),
@@ -436,16 +543,26 @@ app_ui = ui.page_fluid(
             ui.input_select(
                 "xparty",
                 "Party",
-                choices=state_party_choices(selected_state()),
+                choices=state_party_choices(selected_state(), "active"),
                 selected=selected_party(),
             ),
+            ui.input_radio_buttons(
+                 "votertype",
+                 "Voter Type",
+                 {
+                     "active": "Active",
+                     "all": "All"
+                 },
+                 selected="active",
+                 inline=True
+             ),
             ui.input_radio_buttons(
                 "plotgroup",
                 "Groups",
                 {
                     "min": "Min",
                     "mid": "Mid",
-                    "max": "Max",
+                    "max": "Max"
                 },
                 selected="mid",
                 inline=True
@@ -454,10 +571,10 @@ app_ui = ui.page_fluid(
             ui.input_checkbox("plotcounties", "Plot counties", value=False),
             #ui.input_checkbox("plotdetail", "Plot detail", value=False),
             ui.input_checkbox("plotpercent", "Plot percent", value=False),
+            ui.input_checkbox("domonthly", "Plot monthly", value=True),
+            ui.input_checkbox("dothousands", "Plot 1000s", value=False),
             ui.input_checkbox("mark_generals", "Mark generals", value=True),
             ui.input_checkbox("mark_midterms", "Mark midterms", value=True),
-            ui.input_checkbox("dothousands", "Thousands", value=False),
-            ui.input_checkbox("domonthly", "Monthly", value=True),
             ui.input_checkbox("addcheck", "Add check", value=False),
             ui.input_numeric("maxcounties", "Max counties", min=1, value=10),
             ui.input_text(
@@ -513,8 +630,9 @@ def server(input, output, session):
     @reactive.effect
     def _populate_state_inputs():
         state = input.xstate()
-        state_df = read_state_data(state)
-        counties = state_county_choices(state)
+        voter_type = input.votertype()
+        state_df = read_state_data(state, voter_type)
+        counties = state_county_choices(state, voter_type)
         minyear = int(state_df["Year"].min())
         maxyear = int(state_df["Year"].max())
         ui.update_numeric("minyear", min=minyear, max=maxyear, value=minyear, session=session)
@@ -528,13 +646,15 @@ def server(input, output, session):
 
     @reactive.effect
     def _populate_party_input():
-        parties = configured_party_choices(input.xstate(), input.parties())
+        parties = configured_party_choices(
+            input.xstate(), input.votertype(), input.parties()
+        )
         current = input.xparty()
         selected = current if current in parties else parties[0]
         ui.update_select("xparty", choices=parties, selected=selected, session=session)
 
     def move_county(step: int) -> None:
-        counties = state_county_choices(input.xstate())
+        counties = state_county_choices(input.xstate(), input.votertype())
         if not counties:
             return
         current = input.xcounty()
@@ -546,6 +666,42 @@ def server(input, output, session):
     def xstate_changed():
         state = input.xstate()
         # Code to run whenever xstate changes
+        got_active = FILE_PROPS[input.xstate()]["active"]
+        got_all    = FILE_PROPS[input.xstate()]["all"]
+        if got_active and not got_all:
+            ui.update_radio_buttons(
+                "votertype",
+                #  "Voter Type",
+                #  {
+                #      "active": "Active"
+                #  },
+                choices=["active"],
+                selected="active"
+                #inline=True
+            )
+        elif not got_active and got_all:
+            ui.update_radio_buttons(
+                "votertype",
+                #  "Voter Type",
+                #  {
+                #      "active": "Active"
+                #  },
+                choices=["all"],
+                selected="all"
+                #inline=True
+            )
+        else:
+            ui.update_radio_buttons(
+                "votertype",
+                # "Voter Type",
+                # {
+                #     "active": "Active",
+                #     "all": "All"
+                # },
+                choices=["active","all"],
+                selected="active"
+                #inline=True
+            )
         print(f"xstate changed to {state}")
 
     @reactive.effect
@@ -570,20 +726,23 @@ def server(input, output, session):
     @reactive.calc
     def get_data() -> pd.DataFrame:
         minyear = int(input.minyear())
+        minmonth = int(input.minmonth())
         maxyear = int(input.maxyear())
         if minyear > maxyear:
             minyear, maxyear = maxyear, minyear
+        start_date = pd.Timestamp(year=minyear, month=minmonth, day=1)
+        end_date = pd.Timestamp(year=maxyear + 1, month=1, day=1)
 
         # input_parties = input.parties()
         # if not input.plotdetail():
-        #     input_parties = FILE_PROPS[input.xstate()][1]
+        #     input_parties = FILE_PROPS[input.xstate()]["parties"]
         input_parties = input.parties() # input.plotgroup() == "max"
         if input.plotgroup() == "mid":
-            input_parties = FILE_PROPS[input.xstate()][1]
+            input_parties = FILE_PROPS[input.xstate()]["parties"]
         elif input.plotgroup() == "min":
             input_parties = "All"
         source_df = apply_parties_spec(
-            read_state_data(input.xstate()), input_parties
+            read_state_data(input.xstate(), input.votertype()), input_parties
         )
 
         parties = party_columns(source_df)
@@ -593,7 +752,7 @@ def server(input, output, session):
                 axis="columns", min_count=1
             )
         df = source_df[
-            (source_df["Year"] >= minyear) & (source_df["Year"] <= maxyear)
+            (source_df["Date"] >= start_date) & (source_df["Date"] < end_date)
         ].copy()
         if input.plotcounties():
             df = df[df["County"] != "TOTALS"].copy()
@@ -628,7 +787,7 @@ def server(input, output, session):
             else:
                 df[parties] = df[parties].subtract(first_values, axis="columns")
 
-        if input.domonthly():
+        if input.domonthly() and not input.plotcounties():
             #df = df.sort_values("Date").groupby(df["Date"].dt.to_period("M")).tail(1) # include last day of month
             df = df.sort_values("Date")
             idx = df.groupby(df["Date"].dt.to_period("M")).head(1).index # include first day of month
