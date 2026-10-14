@@ -276,7 +276,7 @@ def selected_filename(input, suffix: str) -> str:
 
 
 def apply_year_step(fig, input) -> None:
-    year_step = max(0, int(input.yearstep() or 0))
+    year_step = max(0, int(input.stepyear() or 0))
     if year_step == 0:
         return
 
@@ -532,7 +532,7 @@ app_ui = ui.page_fluid(
             ),
             ui.layout_columns(
                 ui.input_numeric("maxyear", "Max Year", min=2017, max=2026, value=2026),
-                ui.input_numeric("yearstep", "Step Year", min=0, step=1, value=0),
+                ui.input_numeric("stepyear", "Step Year", min=0, step=1, value=0),
             ),
             ui.input_select("xcounty", "County", choices=["TOTALS"], selected="TOTALS"),
             ui.div(
@@ -637,6 +637,11 @@ def server(input, output, session):
         maxyear = int(state_df["Year"].max())
         ui.update_numeric("minyear", min=minyear, max=maxyear, value=minyear, session=session)
         ui.update_numeric("maxyear", min=minyear, max=maxyear, value=maxyear, session=session)
+        span = maxyear - minyear
+        if span > 15 and span <= 32:
+            ui.update_numeric("stepyear", min=0, step=1, value=2, session=session)
+        elif span > 32:
+            ui.update_numeric("stepyear", min=0, step=1, value=4, session=session)
         ui.update_select(
             "xcounty",
             choices=counties,
